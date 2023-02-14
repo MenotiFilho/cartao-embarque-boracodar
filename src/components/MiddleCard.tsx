@@ -3,7 +3,7 @@ import "./InvertedBorder.css";
 
 function MiddleCard() {
 	return (
-		<div className="bg-white w-80 flex flex-col py-6 px-8 font-rubik rounded-3xl border border-black border-opacity-40 md:rounded-none inner-round">
+		<div className="bg-white w-80 flex flex-col py-6 px-8 font-rubik rounded-3xl border-dashed border-b-2 border-black border-opacity-30 inner-rou">
 			<div className="flex justify-between text-sm opacity-60">
 				<p className="leading-4">Passageiro</p>
 				<p className="leading-5">Assento</p>

@@ -1,9 +1,10 @@
 import { Airplane } from "phosphor-react";
 import React from "react";
+import "./InvertedBorder.css";
 
 function TopCard() {
 	return (
-		<div className="w-80 flex flex-col py-6 px-8 rounded-3xl md:rounded-t-3xl md:rounded-b-none inner-round-bottom font-rubik gap-6 justify-between center bg-white">
+		<div className="w-80 flex flex-col py-6 px-8 rounded-3xl font-rubik gap-6 justify-between center border-dashed border-b-2 border-opacity-30 border-black bg-white">
 			<div className="flex flex-col gap-6">
 				<div className="flex flex-col">
 					<div className="flex justify-between text-sm opacity-60 leading-4">

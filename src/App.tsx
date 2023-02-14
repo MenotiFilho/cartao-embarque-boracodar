@@ -4,7 +4,7 @@ import BottomCard from "./components/BottomCard";
 
 function App() {
 	return (
-		<div className="flex p-6 justify-center bg-gradient-to-b from-[#8257E5] to-[#271A45] h-full">
+		<div className="flex p-6 justify-center bg-gradient-to-b from-[#8257E5] to-[#271A45] h-screen">
 			<div className="flex flex-col items-center max-w-7xl tracking-tighter">
 				<h1 className="font-rubik font-medium text-xl text-white mb-5">
 					Cartão de embarque

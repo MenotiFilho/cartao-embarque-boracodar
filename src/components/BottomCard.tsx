@@ -1,9 +1,10 @@
 import React from "react";
 import QRCode from "react-qr-code";
+import "./InvertedBorder.css";
 
 function BottomCard() {
 	return (
-		<div className="w-80 flex flex-col py-6 px-8 rounded-3xl md:rounded-b-3xl md:rounded-t-none inner-round-top font-rubik gap-6 justify-between center bg-white ">
+		<div className="w-80 flex flex-col py-6 px-8 rounded-3xl font-rubik gap-6 justify-between center bg-white ">
 			<div className="flex gap-2 justify-between">
 				<div className="flex flex-col gap-4 my-2">
 					<div className="flex flex-col gap-1 justify-start">
